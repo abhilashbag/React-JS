@@ -1,8 +1,12 @@
-
+import Chai from "./chai"
 function App() {
 
   return (
-  <h1>chai aur react with abhi..</h1>
+    <>
+  <Chai/>
+  <h1>Chai from another</h1>
+  <p>this is comes from fragment.</p>
+  </>
   )
 }
 
